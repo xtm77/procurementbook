@@ -2,6 +2,8 @@ package BookRentalSystem;
 
 import javax.persistence.*;
 import org.springframework.beans.BeanUtils;
+
+import java.util.Date;
 import java.util.List;
 
 @Entity

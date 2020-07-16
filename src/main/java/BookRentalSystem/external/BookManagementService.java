@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.Date;
 
-@FeignClient(name="bookmanagement", url="http://bookmanagement:8080")
+@FeignClient(name="bookmanagement", url="http://localhost:8080")
 public interface BookManagementService {
 
     @RequestMapping(method= RequestMethod.POST, path="/bookManagements")
