@@ -17,7 +17,7 @@ public class Procurementbook {
     private Date regdate;
     private String qty;
 
-    @PostPersist
+    /*@PostPersist
     public void onPostPersist(){
         Bookbought bookbought = new Bookbought();
         BeanUtils.copyProperties(this, bookbought);
@@ -32,7 +32,7 @@ public class Procurementbook {
             .bookRegistration(bookManagement);
 
 
-    }
+    }*/
 
 
     public Long getId() {
